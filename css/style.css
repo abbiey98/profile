@@ -1,0 +1,552 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+  .container{
+  margin-top: 1px;
+  background-image: linear-gradient(rgba(4,9,30,0.9),rgba(4,9,30,0.9));
+    
+}
+nav{
+  text-align: center;
+   
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 10px 30px;
+  position: relative;
+}
+nav ul li a{
+  color:#ffcd05;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+nav ul li ::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background-color: #b09838;
+  display: block; 
+  margin: auto;
+  transition: 0.5s;
+}
+nav ul li :hover::after{
+  width: 100%;
+
+}
+/* css for main */
+.main-part{
+  background-image: linear-gradient(rgba(4,9,30,0.9),rgba(4,9,30,0.9));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* margin-top: 2px; */
+  margin-bottom: 5px;
+}
+.section-one{
+  display: flex;
+  color: #fff;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  padding: 30px 50px;
+  justify-content: space-around;
+  margin-bottom: -100px;
+ 
+}
+.sect-one-a{
+  flex-basis: 50%;
+  background-color:  #03071e;
+  box-shadow: 0 0 9px 0 #e0b91a;
+
+}
+.sect-one-a:hover{
+  background-color: #38362c;
+}
+.sect-p{
+  font-weight: bold;
+  margin-top: 5px;
+}
+.sect-h1{
+  margin-top: 5px;
+  color:#e0b91a;
+}
+hr{
+  margin: 10px auto;
+  
+}
+.sect-one-li{
+  margin: 10px auto;
+}
+.sect-prof-pic{
+  width: 400px;
+  background-color: #ddc5c5;
+  border-radius: 50px;
+  margin-bottom: 5%;
+  padding: 5px 5px;
+  box-sizing: border-box;
+  transition: 0.2s;
+  box-shadow: 0 0 19px 0 #e0b91a;
+  
+}
+.sect-prof-pic:hover{
+background-color: #e0b91a;
+}
+
+/*this article css is meant for the section with the ABout me */
+.article-one{
+  text-align: center;
+  margin-top: 5px;
+}
+.article-one:hover{
+  background: #34322e;
+}
+.article-one-head{
+  color: #e0b91a;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.article-one-p{
+  margin-top: 10px;
+  color: #dbdffd;
+}
+/* This section three Css is meant for the three div elements that comprises of skills,interests and priorities */
+.section-three{
+  display: flex;
+  margin-top: 5%;
+  justify-content: space-around;
+  text-align: center;
+  padding:10px 5%;
+}
+.sect-3-a, .sect-3-b, .sect-3-c{
+  flex-basis: 31%;
+  background-color:  #03071e;
+  border-radius: 40px;
+  margin-bottom: 5px;
+  padding: 5px 4px;
+  box-sizing: border-box;
+ 
+}
+.sect-three-h4-a, .sect-three-h4-b, .sect-three-h4-c{
+  color: #e0b91a;
+  text-align: center;
+}
+.sec-three-ol{
+  color: #dbdffd;
+  padding-top: 5px;
+}
+
+.sect-3-a, .sect-3-b, .sect-3-c{
+  box-shadow: 0 0 9px 0 #e0b91a;
+}
+.sect-3-a:hover{
+background-color: #38362c;
+}
+.sect-3-b:hover{
+background-color: #38362c;
+}
+.sect-3-c:hover{
+background-color: #38362c;
+}
+.footer-container{
+background-image: linear-gradient(rgba(4,9,30,0.9),rgba(4,9,30,0.9));;
+ 
+}
+footer{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  margin-top: 2px;
+  color: #f44336;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  
+}
+
+.social img {
+  width: 10%;
+
+}
+
+.social img:hover {
+  transform: scale(1.3);
+  transition: 0.3s;
+  background-color: #af8d08;
+}
+.end {
+  color:#af8d08;
+  font-size: 14px;
+  margin-top: 1px;
+}
+
+ /* CSS for Contact Me Page */
+
+form{
+  background-color:#03071e;
+  color: #FFF;
+  width: 350px;
+  margin: 10px auto;
+  max-width: 100%;
+  border-radius: 8px;
+  padding: 50px 20px;
+
+}
+
+form .form-container .form-h1{
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+ 
+}
+.form-h2{
+    margin-top: 0;
+    text-align: center;
+    color:#e0b91a;
+    border: 1px solid #e0b91a;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.form-h2:hover{
+  background-color: #302f29;
+}
+form .small{
+  display: flex;
+ margin-right: 25px;
+ 
+}
+form label{
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #e0b91a;
+  padding: 10px;
+
+  
+}
+form .small .small-child input{
+  border-radius: 5px;
+  border: 2px solid #e0b91a;
+  outline: 0;
+  padding: 5px;
+  font-size: 11px;
+  margin-bottom: 10px;
+  color: #fff;
+  margin-left: 7px;
+  margin-right: 10px;
+  background: transparent;
+}
+form .big{
+  margin-bottom: 5px;
+  margin-left: 10px;
+  
+}
+form .big textarea{
+  border-radius: 7px;
+  border: 2px solid #e0b91a;
+  outline: 0;
+  width: 95%;
+  height: 150px;
+   padding: 5px 14px;
+  font-size: 12px;
+  color: #FFF;
+  background: transparent;
+  
+}
+.form-submit{
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.form-submit:hover{
+  color: #eddbdb;
+    
+}
+.form-submit input{
+color: #e0b91a;
+background: transparent;
+padding: 5px 30px;
+border: 2px solid #e0b91a;
+}
+
+/* css for registration */
+
+form{
+  background-color:#03071e;
+  color: #FFF;
+  width: 350px;
+  margin: 10px auto;
+  max-width: 100%;
+  border-radius: 8px;
+  padding: 50px 20px;
+}
+
+form .form-container .form-h1{
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+ 
+}
+.form-h2{
+    margin-top: 0;
+    text-align: center;
+    color:#e0b91a;
+    border: 1px solid #5a5956;
+}
+.form-h2:hover{
+  background-color: #302f29;
+}
+form .small{
+  display: flex;
+  justify-content: space-around;
+  margin: 5px;
+ 
+}
+form label{
+  display: block;
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: #e0b91a;
+  padding-left: 20px;
+  
+}
+form .small .small-child input{
+  border-radius: 5px;
+  border: 2px solid#e0b91a;
+  outline: 0;
+  padding: 5px;
+  font-size: 11px;
+  margin-bottom: 10px;
+  color: #fff;
+  margin-left: 7px;
+  margin-right: 2px;
+  background: transparent;
+}
+.small-child-number input{
+  border-radius: 5px;
+  border: 2px solid #e0b91a;
+  outline: 0;
+  padding: 5px;
+  font-size: 11px;
+  margin-bottom: 10px;
+  color: #fff;
+  margin-left: 7px;
+  margin-right: 2px;
+  background: transparent;
+}
+form .big{
+  margin-bottom: 5px;
+  margin-left: 15px;
+}
+form .big input{
+  border-radius: 5px;
+  border: 2px solid #e0b91a;
+  outline: 0;
+  padding-left:5px;
+  font-size: 13px;
+  color: #FFF;
+  background: transparent;
+  margin-left: 15px;
+}
+.num{
+  background:transparent;
+  border: 2px solid #e0b91a;
+  padding:0 2px;
+  padding-left:5px;
+  font-size: 13px;
+  color: rgb(160, 143, 143);
+  border-radius: 5px;
+}
+
+.form-submit{
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.form-submit:hover{
+  color: #eddbdb;
+    
+}
+.form-submit input{
+color: #e0b91a;
+background: transparent;
+padding: 5px 30px;
+border: 2px solid #e0b91a;
+}
+
+/* css for login page */
+
+form{
+  background-color:#03071e;
+  color: #FFF;
+  width: 350px;
+  margin: 10px auto;
+  max-width: 100%;
+  border-radius: 8px;
+  padding: 50px 20px;
+}
+
+form .form-container .form-h1{
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+ 
+}
+.form-h2{
+    margin-top: 0;
+    text-align: center;
+    color: #e0b91a;
+    border: 1px solid #e0b91a;
+}
+.form-h2:hover{
+  background-color: #302f29;
+}
+form .small{
+  display: flex;
+  justify-content: space-around;
+  margin: 5px;
+ 
+}
+form label{
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color:#e0b91a;
+  padding-left: 20px;
+  
+}
+form .small .small-child input{
+  border-radius: 5px;
+  border: 2px solid #e0b91a;
+  outline: 0;
+  padding: 5px;
+  font-size: 11px;
+  margin-bottom: 10px;
+  color: #fff;
+  margin-left: 7px;
+  margin-right: 2px;
+  background: transparent;
+}
+form .big{
+  margin-bottom: 5px;
+}
+form .big textarea{
+  border-radius: 7px;
+  border: 2px solid #e0b91a;
+  outline: 0;
+  width: 90%;
+  height: 150px;
+   padding: 5px 14px;
+  font-size: 12px;
+  color: #FFF;
+  background: transparent;
+  
+}
+.form-submit{
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.form-submit:hover{
+  color: #eddbdb;
+    
+}
+.form-submit input{
+color: #e0b91a;
+background: transparent;
+padding: 5px 30px;
+border: 2px solid #e0b91a;
+}
+.login{
+  background:transparent;
+  color: #e0b91a;
+  border: 2px solid #e0b91a;
+  padding: 5px 10px;
+}
+.psw{
+  background: transparent;
+  color: #ffce0b;
+}
+.cancelbtn{
+  color: #e0b91a;
+background: transparent;
+padding: 5px 10px;
+border: 2px solid #e0b91a;
+}
+
+
+/* media query for device of 700px and below  */
+@media only screen and (max-width:700px){
+    *{
+        overflow-x: hidden;
+    }
+
+  nav ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 10px 10px;
+  position: relative;
+}
+    .section-one{
+        display: block;
+        margin:0 auto;
+      padding: 6px 15px;
+  
+    }
+    .sect-prof-pic{
+        width: 200px;
+        height:200px;
+        margin-top: 40px;
+    }
+    .sect-one-a, .sect-one-li, hr, .sect-p, .sect-h1{
+        margin-top: 20px;
+    }
+    .section-three{
+        display: block;
+    }
+    .article-one{
+      padding: 30px;
+    }
+    .social{
+      display: block;
+      justify-content: space-around;
+      margin-left:150px;
+    }
+  form{
+      margin-bottom: 95px;
+      margin-top: 95px;
+}
+  
+
+  
+form .small .small-child input{
+
+  margin-left:2px;
+  margin-right: 1rem;
+
+}
+  
+}
+
+
